@@ -1,0 +1,9 @@
+..\..\output\appicon.o: ..\..\USER\APP\appicon.c
+..\..\output\appicon.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\appicon.o: ..\..\emWin\inc\GUI.h
+..\..\output\appicon.o: ..\..\emWin\inc\GUI_ConfDefaults.h
+..\..\output\appicon.o: ..\..\emWin\Config\GUIConf.h
+..\..\output\appicon.o: ..\..\emWin\inc\GUI_Type.h
+..\..\output\appicon.o: ..\..\emWin\inc\LCD.h
+..\..\output\appicon.o: ..\..\emWin\inc\Global.h
+..\..\output\appicon.o: ..\..\emWin\inc\GUI_Version.h

@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\USER -I ..\..\uCOS_III\uC-CPU -I ..\..\uCOS_III\uC-LIB -I ..\..\uCOS_III\uCOS-III\Ports -I ..\..\uCOS_III\uCOS-III\Source -I ..\..\USER\os_cfg -I ..\..\emWin\Config -I ..\..\emWin\inc -I ..\..\FATFS -I ..\..\USER\APP -I ..\..\USER\Bsp\mpu6050\driver\include -I ..\..\USER\Bsp\mpu6050\driver\eMPL -I ..\..\USER\Bsp\mpu6050\driver\stm32L -I ..\..\USER\Bsp\mpu6050\eMPL-hal -I ..\..\USER\Bsp\mpu6050\mllite -I ..\..\USER\Bsp\mpu6050\mpl -I ..\..\USER\mp3\pub -I ..\..\USER\mp3\real -I ..\..\Gizwits -I ..\..\Gizwits
+-I.\RTE\_STM32F429
+-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F429xx -DSTM32F429_439xx -DUSE_STDPERIPH_DRIVER -DUSE_DMP -DMPL_LOG_NDEBUG="1" -DEMPL -DMPU6050 -DEMPL_TARGET_STM32F4
+-o ..\..\output\musicdlg.o --omf_browse ..\..\output\musicdlg.crf --depend ..\..\output\musicdlg.d "..\..\USER\APP\musicDLG.c"
