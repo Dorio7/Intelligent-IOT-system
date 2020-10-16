@@ -1,0 +1,8 @@
+Change Component Designator: OldDesignator=D? NewDesignator=D4
+Change Component Designator: OldDesignator=LED_? NewDesignator=LED_1
+Change Component Designator: OldDesignator=R? NewDesignator=R9
+Change Component Designator: OldDesignator=R? NewDesignator=R10
+Change Net Name : Old Net Name=NetD?_1 New Net Name=NetD4_1
+Change Net Name : Old Net Name=NetLED_?_2 New Net Name=NetLED_1_2
+Added Member To Class: ClassName=Socket Member=Component R10 1K
+Added Room: Name=Socket

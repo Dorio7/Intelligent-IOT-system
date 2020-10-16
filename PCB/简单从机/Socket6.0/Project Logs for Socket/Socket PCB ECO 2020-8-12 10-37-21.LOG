@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=NetCR1_AC2 Pin=CR1-AC1
+Removed Pin From Net: NetName=N Pin=CR1-AC2
+Added Pin To Net: NetName=N Pin=CR1-AC1
+Added Pin To Net: NetName=NetCR1_AC2 Pin=CR1-AC2
+Added Member To Class: ClassName=Socket Member=Component C3 330uF/10V
+Added Member To Class: ClassName=Socket Member=Component U2 Relay
+Added Room: Name=Socket

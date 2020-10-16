@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=NetP2_1 Pin=P2-1
+Removed Pin From Net: NetName=NetP2_2 Pin=P2-2
+Removed Pin From Net: NetName=NetP2_1 Pin=U2-5
+Removed Member From Class: ClassName=Socket Member=P2
+Change Component Footprint: Designator=P1 Old Footprint=电源端子2P New Footprint=KF128-5.08-2P
+Added Component: Designator=*(KF128-5.08-3P)
+Added Pin To Net: NetName=NetP2_2 Pin=*-2
+Added Pin To Net: NetName=NetP2_1 Pin=*-3
+Added Pin To Net: NetName=NetP2_1 Pin=U2-4
+Change Net Name : Old Net Name=NetP2_1 New Net Name=Net*_3
+Change Net Name : Old Net Name=NetP2_2 New Net Name=Net*_2
+Added Pin To Net: NetName=Net*_1 Pin=*-1
+Added Pin To Net: NetName=Net*_1 Pin=U2-5
+Added Net: Name=Net*_1
+Added Member To Class: ClassName=Socket Member=Component * 电源端子3P
+Added Room: Name=Socket

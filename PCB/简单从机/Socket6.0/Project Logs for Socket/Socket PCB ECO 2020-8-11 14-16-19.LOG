@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GND Pin=C6-2
+Removed Pin From Net: NetName=GND Pin=C7-2
+Removed Pin From Net: NetName=GND Pin=CR1-DC-
+Added Pin To Net: NetName=PGND Pin=C6-2
+Added Pin To Net: NetName=PGND Pin=C7-2
+Added Pin To Net: NetName=PGND Pin=CR1-DC-
+Added Member To Class: ClassName=Socket Member=Component CR1 600V/0.5A
+Added Member To Class: ClassName=Socket Member=Component P1 µçÔ´¶Ë×Ó
+Added Room: Name=Socket

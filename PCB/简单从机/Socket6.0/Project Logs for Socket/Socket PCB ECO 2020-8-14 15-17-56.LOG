@@ -1,0 +1,5 @@
+Added Component: Designator=P1(KF128-5.08-2P)
+Added Pin To Net: NetName=N Pin=P1-1
+Added Pin To Net: NetName=L Pin=P1-2
+Added Member To Class: ClassName=Socket Member=Component P1 µçÔ´¶Ë×Ó
+Added Room: Name=Socket

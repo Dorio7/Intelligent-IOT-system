@@ -1,0 +1,55 @@
+Removed Pin From Net: NetName=NetCR1_AC2 Pin=CR1-AC1
+Removed Pin From Net: NetName=N Pin=CR1-AC2
+Removed Pin From Net: NetName=NetD5_2 Pin=D5-2
+Removed Pin From Net: NetName=NetQ1_1 Pin=Q1-1
+Removed Pin From Net: NetName=LED Pin=R9-1
+Removed Pin From Net: NetName=NetQ1_2 Pin=R9-2
+Removed Pin From Net: NetName=LED Pin=R10-1
+Removed Pin From Net: NetName=NetQ1_2 Pin=R10-2
+Removed Pin From Net: NetName=GND Pin=R11-2
+Removed Pin From Net: NetName=5V Pin=U4-1
+Removed Pin From Net: NetName=NetQ1_1 Pin=U4-2
+Removed Pin From Net: NetName=GND Pin=U4-3
+Removed Member From Class: ClassName=Socket Member=D5
+Removed Member From Class: ClassName=Socket Member=R9
+Removed Member From Class: ClassName=Socket Member=R10
+Removed Member From Class: ClassName=Socket Member=R11
+Removed Member From Class: ClassName=Socket Member=U4
+Change Component Comment : Designator=Q1 Old Comment=QNPN New Comment=8050
+Added Component: Designator=D?(DO-41)
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "DO-204-AL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.fairchildsemi.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.fairchildsemi.com/ds/1N%2F1N4001.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "1998"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Diode, Axial; Body 5.2 x 2.7 mm (LxDia. max), Lead Dia. 0.86 mm (max)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "DO-41"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Aug-1999"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=LED_?(LED1206G)
+Added Component: Designator=R?(R1206)
+Added Component: Designator=R?(R1206)
+Added Pin To Net: NetName=N Pin=CR1-AC1
+Added Pin To Net: NetName=NetCR1_AC2 Pin=CR1-AC2
+Added Pin To Net: NetName=NetD5_2 Pin=D?-1
+Added Pin To Net: NetName=5V Pin=D?-2
+Added Pin To Net: NetName=5V Pin=LED_?-1
+Added Pin To Net: NetName=NetQ1_1 Pin=LED_?-2
+Added Pin To Net: NetName=NetD5_2 Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=Q1-3
+Added Pin To Net: NetName=NetD5_2 Pin=R?-1
+Added Pin To Net: NetName=NetQ1_2 Pin=R?-1
+Added Pin To Net: NetName=LED Pin=R?-2
+Added Pin To Net: NetName=NetQ1_1 Pin=R?-2
+Added Pin To Net: NetName=5V Pin=U2-1
+Change Net Name : Old Net Name=NetD5_2 New Net Name=NetD?_1
+Change Net Name : Old Net Name=NetQ1_1 New Net Name=NetLED_?_2
+Added Member To Class: ClassName=Socket Member=Component D? 1N4007
+Added Member To Class: ClassName=Socket Member=Component LED_? LED_G
+Added Member To Class: ClassName=Socket Member=Component R? 1K
+Added Member To Class: ClassName=Socket Member=Component R? 1K
+Added Room: Name=Socket
