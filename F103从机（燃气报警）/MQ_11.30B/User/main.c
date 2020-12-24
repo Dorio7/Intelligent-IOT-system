@@ -19,7 +19,7 @@ void Delay(__IO u32 nCount)
 
 int main(void)
 {	
-	u8 i;
+
 	SystemInit();
   /*初始化USART 配置模式为 115200 8-N-1，中断接收*/
   USART_Config();
