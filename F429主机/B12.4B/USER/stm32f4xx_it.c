@@ -86,7 +86,6 @@ void USART3_IRQHandler(void)                    //串口3中断服务程序
 		if (USART_GetITStatus(USART3,USART_IT_RXNE)!=RESET)
 		{
 			ucTemp = USART_ReceiveData( USART3 );
-//			USART_SendData(USART3,ucTemp);
 			if (ucTemp==0xFE)
 			{
 				R_flag=0;
@@ -106,26 +105,15 @@ void USART3_IRQHandler(void)                    //串口3中断服务程序
 			}	
 		}
 		
-//		USART_SendData(USART1,ucTemp);
-		
 		if(NOFINS_flag)//有数据包未处理
 		{
 			if(ZIGBEE_R_TEMP[2]==0xA1&ZIGBEE_R_TEMP[4]==0x22)
 			{
 				E1ST=ZIGBEE_R_TEMP[6];
 			}
-//			else if(ZIGBEE_R_TEMP[2]==0xA2&ZIGBEE_R_TEMP[4]==0x22)
-//			{
-//							
-//				POW_H=ZIGBEE_R_TEMP[8];
-//				POW_L=ZIGBEE_R_TEMP[9];
-//				
-//			}
+
 		else if(ZIGBEE_R_TEMP[2]==0xA4&ZIGBEE_R_TEMP[4]==0x44)
 			MQ_W=ZIGBEE_R_TEMP[6];
-			
-			
-			
 			NOFINS_flag=0;
 		}
 

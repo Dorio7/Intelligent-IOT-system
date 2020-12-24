@@ -21,11 +21,11 @@
 ..\..\output\inv_mpu_dmp_motion_driver.o: ..\..\uCOS_III\uC-LIB\lib_str.h
 ..\..\output\inv_mpu_dmp_motion_driver.o: ..\..\uCOS_III\uC-LIB\lib_ascii.h
 ..\..\output\inv_mpu_dmp_motion_driver.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
-..\..\output\inv_mpu_dmp_motion_driver.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
-..\..\output\inv_mpu_dmp_motion_driver.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
-..\..\output\inv_mpu_dmp_motion_driver.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
-..\..\output\inv_mpu_dmp_motion_driver.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
-..\..\output\inv_mpu_dmp_motion_driver.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
+..\..\output\inv_mpu_dmp_motion_driver.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
+..\..\output\inv_mpu_dmp_motion_driver.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+..\..\output\inv_mpu_dmp_motion_driver.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+..\..\output\inv_mpu_dmp_motion_driver.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+..\..\output\inv_mpu_dmp_motion_driver.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
 ..\..\output\inv_mpu_dmp_motion_driver.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
 ..\..\output\inv_mpu_dmp_motion_driver.o: ..\..\USER\stm32f4xx_conf.h
 ..\..\output\inv_mpu_dmp_motion_driver.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h

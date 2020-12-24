@@ -14,12 +14,12 @@
 ..\..\output\guidrv_wf.o: ..\..\emWin\inc\GUIDRV_Lin.h
 ..\..\output\guidrv_wf.o: ..\..\USER\./Bsp/lcd/bsp_lcd.h
 ..\..\output\guidrv_wf.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
-..\..\output\guidrv_wf.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
+..\..\output\guidrv_wf.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
 ..\..\output\guidrv_wf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-..\..\output\guidrv_wf.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
-..\..\output\guidrv_wf.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
-..\..\output\guidrv_wf.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
-..\..\output\guidrv_wf.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
+..\..\output\guidrv_wf.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+..\..\output\guidrv_wf.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+..\..\output\guidrv_wf.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+..\..\output\guidrv_wf.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
 ..\..\output\guidrv_wf.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
 ..\..\output\guidrv_wf.o: ..\..\USER\stm32f4xx_conf.h
 ..\..\output\guidrv_wf.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h

@@ -16,12 +16,12 @@
 ..\..\output\clockdlg.o: ..\..\USER\os_cfg\lib_cfg.h
 ..\..\output\clockdlg.o: ..\..\uCOS_III\uC-LIB\lib_str.h
 ..\..\output\clockdlg.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
-..\..\output\clockdlg.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
+..\..\output\clockdlg.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
 ..\..\output\clockdlg.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-..\..\output\clockdlg.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
-..\..\output\clockdlg.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
-..\..\output\clockdlg.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
-..\..\output\clockdlg.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
+..\..\output\clockdlg.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+..\..\output\clockdlg.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+..\..\output\clockdlg.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+..\..\output\clockdlg.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
 ..\..\output\clockdlg.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
 ..\..\output\clockdlg.o: ..\..\USER\stm32f4xx_conf.h
 ..\..\output\clockdlg.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h

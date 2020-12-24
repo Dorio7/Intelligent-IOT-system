@@ -667,11 +667,6 @@
               <FileType>1</FileType>
               <FilePath>..\..\USER\stm32f4xx_it.c</FilePath>
             </File>
-            <File>
-              <FileName>ZIGBEE.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\USER\ZIGBEE.h</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>

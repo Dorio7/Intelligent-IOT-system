@@ -1,11 +1,11 @@
 ..\..\output\system_stm32f4xx.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
 ..\..\output\system_stm32f4xx.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
-..\..\output\system_stm32f4xx.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
+..\..\output\system_stm32f4xx.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
 ..\..\output\system_stm32f4xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-..\..\output\system_stm32f4xx.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
-..\..\output\system_stm32f4xx.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
-..\..\output\system_stm32f4xx.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
-..\..\output\system_stm32f4xx.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
+..\..\output\system_stm32f4xx.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+..\..\output\system_stm32f4xx.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+..\..\output\system_stm32f4xx.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+..\..\output\system_stm32f4xx.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
 ..\..\output\system_stm32f4xx.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
 ..\..\output\system_stm32f4xx.o: ..\..\USER\stm32f4xx_conf.h
 ..\..\output\system_stm32f4xx.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h

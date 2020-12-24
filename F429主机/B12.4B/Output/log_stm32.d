@@ -11,11 +11,11 @@
 ..\..\output\log_stm32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
 ..\..\output\log_stm32.o: ..\..\USER\Bsp\mpu6050\driver\include\log.h
 ..\..\output\log_stm32.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
-..\..\output\log_stm32.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
-..\..\output\log_stm32.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
-..\..\output\log_stm32.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
-..\..\output\log_stm32.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
-..\..\output\log_stm32.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
+..\..\output\log_stm32.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
+..\..\output\log_stm32.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+..\..\output\log_stm32.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+..\..\output\log_stm32.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+..\..\output\log_stm32.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
 ..\..\output\log_stm32.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
 ..\..\output\log_stm32.o: ..\..\USER\stm32f4xx_conf.h
 ..\..\output\log_stm32.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h

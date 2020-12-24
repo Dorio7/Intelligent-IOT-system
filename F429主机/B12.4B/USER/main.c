@@ -56,12 +56,6 @@ void ZIGBEE_Sned(u8 buf[])
 
 int32_t testtime;
 int32_t tests=0;
-/*
-*********************************************************************************************************
-*                                            LOCAL DEFINES
-*********************************************************************************************************
-*/
-
 
 /* --------------- APPLICATION GLOBALS ---------------- */
 static  OS_TCB       AppTaskStartTCB;
@@ -180,18 +174,6 @@ static void inputscan(void)
 	GT9xx_GetOnePiont();//触摸屏定时扫描
   OSSchedUnlock(&err); 
   
-//	Key_RefreshState(&Key1);//刷新按键状态
-//	Key_RefreshState(&Key2);//刷新按键状态
-//	if(Key_AccessTimes(&Key1,KEY_ACCESS_READ)!=0)//按键被按下过
-//	{
-//		LED2_TOGGLE;
-//		Key_AccessTimes(&Key1,KEY_ACCESS_WRITE_CLEAR);
-//	}
-//	if(Key_AccessTimes(&Key2,KEY_ACCESS_READ)!=0)//按键被按下过
-//	{
-//		LED3_TOGGLE;
-//		Key_AccessTimes(&Key2,KEY_ACCESS_WRITE_CLEAR);
-//	}
 }
 
 /*
@@ -440,9 +422,6 @@ static  void  AppTaskObj0 (void  *p_arg)
 
 	while(1)
 	{	
-//		printf("TTASK1\n");
-		//BEEP_ON;
-
 			OSSchedLock(&err);//进入临界区
 
 			SW1_ST[6]=E1ST;
@@ -453,7 +432,6 @@ static  void  AppTaskObj0 (void  *p_arg)
 			USART3_Sned_Char_Buff(SW2_ON,8);
 		else
 			USART3_Sned_Char_Buff(SW2_OFF,8);
-		
 		
 			USART3_Sned_Char_Buff(MQ_ST,11);
 		
@@ -473,7 +451,7 @@ static  void  AppTaskObj0 (void  *p_arg)
 												OS_OPT_TIME_HMSM_STRICT,
 												&err);
 	}
-		//BEEP_OFF;  
+
 }
 
 #endif
@@ -508,18 +486,6 @@ void Get_HUMTEMLLIGHT_task(void *p_arg)
 			IOT_DHT11_wendu=DHT11_Data.temp_int;
 			valueDHT11_shidu=DHT11_Data.humi_int;
 			
-//			printf("temp=%d\n",IOT_DHT11_wendu);
-//			
-//			POW_H=SW1_ST[8];
-//			POW_L=SW1_ST[9];
-//			
-//			for(flll=0;flll<11;flll++)
-//				printf("%x ",SW1_ST[flll]);
-//			printf("\n ");
-			
-//			USART3_Sned_Char_Buff(MQ_ST,11);
-//			
-//			printf("POW_H=%x\n",POW_H);printf("POW_L=%x\n",POW_L);
 			
 			pow_x=rand()%7;
 			POW_T=1+pow_x*0.1;
@@ -628,7 +594,8 @@ static  void  AppTaskGUI (void  *p_arg)
 		hardwareerr();
 	}
   while(1)
-  {printf("TTASK4\n");
+  {
+		printf("TTASK4\n");
     emWinMainApp();
 		
   }

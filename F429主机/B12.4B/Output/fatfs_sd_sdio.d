@@ -1,12 +1,12 @@
 ..\..\output\fatfs_sd_sdio.o: ..\..\FATFS\drivers\fatfs_sd_sdio.c
 ..\..\output\fatfs_sd_sdio.o: ..\..\FATFS\./drivers/fatfs_sd_sdio.h
 ..\..\output\fatfs_sd_sdio.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
-..\..\output\fatfs_sd_sdio.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
+..\..\output\fatfs_sd_sdio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
 ..\..\output\fatfs_sd_sdio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-..\..\output\fatfs_sd_sdio.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
-..\..\output\fatfs_sd_sdio.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
-..\..\output\fatfs_sd_sdio.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
-..\..\output\fatfs_sd_sdio.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
+..\..\output\fatfs_sd_sdio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+..\..\output\fatfs_sd_sdio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+..\..\output\fatfs_sd_sdio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+..\..\output\fatfs_sd_sdio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
 ..\..\output\fatfs_sd_sdio.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
 ..\..\output\fatfs_sd_sdio.o: ..\..\USER\stm32f4xx_conf.h
 ..\..\output\fatfs_sd_sdio.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h

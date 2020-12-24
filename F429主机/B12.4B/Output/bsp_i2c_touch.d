@@ -1,12 +1,12 @@
 ..\..\output\bsp_i2c_touch.o: ..\..\USER\Bsp\touch\bsp_i2c_touch.c
 ..\..\output\bsp_i2c_touch.o: ..\..\USER\./Bsp/touch/bsp_i2c_touch.h
 ..\..\output\bsp_i2c_touch.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
-..\..\output\bsp_i2c_touch.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
+..\..\output\bsp_i2c_touch.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
 ..\..\output\bsp_i2c_touch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-..\..\output\bsp_i2c_touch.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
-..\..\output\bsp_i2c_touch.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
-..\..\output\bsp_i2c_touch.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
-..\..\output\bsp_i2c_touch.o: D:\KEIL5\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
+..\..\output\bsp_i2c_touch.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+..\..\output\bsp_i2c_touch.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+..\..\output\bsp_i2c_touch.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+..\..\output\bsp_i2c_touch.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
 ..\..\output\bsp_i2c_touch.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
 ..\..\output\bsp_i2c_touch.o: ..\..\USER\stm32f4xx_conf.h
 ..\..\output\bsp_i2c_touch.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h

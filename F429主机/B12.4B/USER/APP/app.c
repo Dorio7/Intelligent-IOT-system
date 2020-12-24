@@ -1,19 +1,3 @@
-/**
-  ******************************************************************************
-  * @file    main.c
-  * @author  fire
-  * @version V1.0
-  * @date    2015-xx-xx
-  * @brief   用1.5.1版本库建的工程模板
-  ******************************************************************************
-  * @attention
-  *
-  * 实验平台:秉火  STM32 F429 开发板 
-  * 论坛    :http://www.firebbs.cn
-  * 淘宝    :https://fire-stm32.taobao.com
-  *
-  ******************************************************************************
-  */
 #include "includes.h"
 
 /*
@@ -36,20 +20,8 @@
 *********************************************************************************************************
 */ 
 extern GUI_CONST_STORAGE GUI_BITMAP bmIdea;
-//extern GUI_CONST_STORAGE GUI_BITMAP bmCalculator;
 extern GUI_CONST_STORAGE GUI_BITMAP bmClock;
-//extern GUI_CONST_STORAGE GUI_BITMAP bmCompass;
-//extern GUI_CONST_STORAGE GUI_BITMAP bmMessages;
-//extern GUI_CONST_STORAGE GUI_BITMAP bmMusic;
-//extern GUI_CONST_STORAGE GUI_BITMAP bmPhone;
-//extern GUI_CONST_STORAGE GUI_BITMAP bmPhotos;
-//extern GUI_CONST_STORAGE GUI_BITMAP bmVideos;
-//extern GUI_CONST_STORAGE GUI_BITMAP bmSafari;
 extern GUI_CONST_STORAGE GUI_BITMAP bmWeather;
-//extern GUI_CONST_STORAGE GUI_BITMAP bmwifi;
-//extern GUI_CONST_STORAGE GUI_BITMAP bmSiri;
-//extern GUI_CONST_STORAGE GUI_BITMAP bmCamera;
-//extern GUI_CONST_STORAGE GUI_BITMAP bmUSB;
 extern GUI_CONST_STORAGE GUI_BITMAP bmHome;
 extern GUI_CONST_STORAGE GUI_BITMAP bmQR;
 extern GUI_CONST_STORAGE GUI_BITMAP bmLOCK;
@@ -95,7 +67,6 @@ static const BITMAP_ITEM _aBitmapItem[] =
 };
 
 void FUN_ICON1Clicked(void)  {printf("FUN_ICON1Clicked\n");}
-//void FUN_ICON8Clicked(void)  {printf("FUN_ICON7Clicked\n");}
 
 /*
 *********************************************************************************************************
@@ -359,7 +330,7 @@ void emWinMainApp(void)
 	RADIO_SetDefaultSkin(RADIO_SKIN_FLEX);
 	MULTIPAGE_SetDefaultSkin(MULTIPAGE_SKIN_FLEX);
   
-  /***************************定制皮肤*****************************/
+  /***************************emwin皮肤*****************************/
   FRAMEWIN_GetSkinFlexProps(&FRAMEWIN_pProps,FRAMEWIN_SKINFLEX_PI_ACTIVE);
   FRAMEWIN_pProps.aColorFrame[0]=GUI_BLACK;
   FRAMEWIN_pProps.aColorFrame[1]=GUI_BLACK;
